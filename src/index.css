@@ -1,13 +1,196 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  color: whitesmoke;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.home {
+  margin: 0rem;
+  padding: 0rem;
+  background: url('https://res.cloudinary.com/freedom41/image/upload/v1575441970/mono_mgydln.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 60vh;
+   width: 100%;
+}
+
+li {
+  margin: 0.5rem;
+  list-style: none;
+}
+
+.text {
+  font-size: 2.5rem;
+}
+
+.main {
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+}
+
+.subSection {
+  height: 150vh;
+  background: url('https://res.cloudinary.com/freedom41/image/upload/v1575406595/types_e1bvc3.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  border-radius: 55px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: url('https://res.cloudinary.com/freedom41/image/upload/v1575406594/c1_hemsvt.jpg');
+  background-size: cover;
+  background-position: left center;
+  text-align: center;
+  align-content: center;
+  background-repeat: no-repeat;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(71, 32, 32);
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1.5rem;
+  opacity: 0.8;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.catalog {
+  background: url('https://res.cloudinary.com/freedom41/image/upload/v1575406594/nav_sqwaqv.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.bean-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.bean {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+}
+
+input {
+  width: 200px;
+  background: rgb(66, 12, 12);
+  color: whitesmoke;
+  padding: 0.35rem;
+  margin: 0.15rem;
+}
+
+button {
+  color: black;
+  margin-top: 0.5rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.remove {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+  padding: 1rem;
+}
+
+.refund {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 45vh;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.foot {
+  padding-right: 0.8rem;
+}
+
+.cust404 {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
